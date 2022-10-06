@@ -1,0 +1,9 @@
+@import "./_reset";
+@import "./_variable";
+@import "./_mixins";
+
+h1 {
+  background-color: $primaryColor;
+  color: $secondaryColor;
+  font-size: 1.4rem;
+}
