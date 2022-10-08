@@ -8,9 +8,9 @@ const Header = () => {
     <header className="header container">
       <img src={logo} alt="brand__logo" />
       <Search />
-      <button className="button" type="button">
-        <img src={cart} alt="basket__icon" />
-        <span>Sepetim</span>
+      <button className="header__basket" type="button">
+        <img src={cart} alt="basket__icon" className="header__basket__icon" />
+        <span className="header__basket__text">Sepetim</span>
       </button>
     </header>
   );
