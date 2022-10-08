@@ -4,14 +4,17 @@ import BreadCrumb from "./components/BreadCrumb/BreadCrumb";
 import Header from "./components/Header/Header";
 import Title from "./components/Title/Title";
 import Category from "./components/Category/Category";
+import { CartProvider } from "./context/CartContext";
 
 function App() {
   return (
     <div className="App">
-      <Header />
-      <Title />
-      <BreadCrumb />
-      <Category />
+      <CartProvider>
+        <Header />
+        <Title />
+        <BreadCrumb />
+        <Category />
+      </CartProvider>
     </div>
   );
 }
