@@ -11,7 +11,7 @@ const ProductCard = ({ name, delivery, price, image }) => {
           {delivery ? "Ücretsiz Teslimat" : ""}
         </p>
         <p className="productCard__info__price">
-          <span>{price}</span>TL
+          <span>{price} </span>TL
         </p>
       </main>
       <button type="button" className="productCard__button">

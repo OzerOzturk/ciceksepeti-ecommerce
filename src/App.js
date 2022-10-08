@@ -6,18 +6,20 @@ import Title from "./components/Title/Title";
 import Category from "./components/Category/Category";
 import ProductList from "./components/Product/ProductList";
 import { CartProvider } from "./context/CartContext";
+import CampaignList from "./components/Campaign/CampaignList";
 
 function App() {
   return (
-    <div className="App">
+    <>
       <CartProvider>
         <Header />
         <Title />
         <BreadCrumb />
         <Category />
         <ProductList />
+        <CampaignList />
       </CartProvider>
-    </div>
+    </>
   );
 }
 

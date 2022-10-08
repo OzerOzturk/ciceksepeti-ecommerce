@@ -1,0 +1,43 @@
+.campaignCard {
+  display: flex;
+  width: 480px;
+  height: 153px;
+  padding: 10px;
+  margin-right: 20px;
+  margin-bottom: 20px;
+  border-radius: 10px;
+
+  &__image {
+    display: flex;
+    margin-right: 35px;
+  }
+
+  &__main {
+    display: flex;
+    flex-direction: column;
+
+    &__title {
+      font-size: 24px;
+      color: $textGray;
+      font-weight: 300;
+      margin-bottom: 9px;
+      margin-top: 17px;
+    }
+
+    &__button {
+      height: 30px;
+      width: 120px;
+      padding: 6px 0 7px;
+      margin-bottom: auto;
+      margin-top: auto;
+      border: none;
+      outline: none;
+      border-radius: 20px;
+      background-color: $backgroundWhite;
+      color: $textRed;
+      font-size: 13px;
+      font-weight: 600;
+      cursor: pointer;
+    }
+  }
+}
