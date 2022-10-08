@@ -1,0 +1,225 @@
+{
+  "categories": [
+    { "id": 1, "name": "Tüm Kategoriler" },
+    { "id": 2, "name": "Elektronik" },
+    { "id": 3, "name": "Ev ve Yaşam" },
+    { "id": 4, "name": "Evcil Hayvan" },
+    { "id": 5, "name": "Kitap" },
+    { "id": 6, "name": "Oyuncak" },
+    { "id": 7, "name": "Spor" },
+    { "id": 8, "name": "Çiçek" },
+    { "id": 9, "name": "Hediye" },
+    { "id": 10, "name": "Moda, Aksesuar" },
+    { "id": 11, "name": "Ofis, Kırtasiye" },
+    { "id": 12, "name": "Parfüm" },
+    { "id": 13, "name": "Kişisel Bakım" },
+    { "id": 14, "name": "Petshop" }
+  ],
+
+  "products": [
+    {
+      "id": 1,
+      "name": "Z6 Akıllı Saat Kameralı Konuşma Garantili Sim Kartlı Bluetooth",
+      "freeDelivery": true,
+      "price": 399.9,
+      "image": "https://user-images.githubusercontent.com/60944453/194701239-e25caa00-32a8-4b04-a93c-cf659c4a769a.png",
+      "category": [{ "id": 2, "name": "Elektronik" }]
+    },
+    {
+      "id": 2,
+      "name": "Calvin Klein Euphoria EDP 100 ml Kadın Parfüm",
+      "freeDelivery": false,
+      "price": 145.61,
+      "image": "https://user-images.githubusercontent.com/60944453/194701458-a548f273-9b2e-4ffe-9fb0-c31ae65d43ec.png",
+      "category": [
+        { "id": 12, "name": "Parfüm" },
+        { "id": 13, "name": "Kişisel Bakım" }
+      ]
+    },
+    {
+      "id": 3,
+      "name": "Gold Çizgili Vazoda 2 Dal Orkide Çiçeği",
+      "freeDelivery": true,
+      "price": 249.9,
+      "image": "https://user-images.githubusercontent.com/60944453/194701539-6f84b3f8-f92e-4fab-b730-21eba8b2671d.png",
+      "category": [
+        { "id": 3, "name": "Ev ve Yaşam" },
+        { "id": 8, "name": "Çiçek" },
+        { "id": 9, "name": "Hediye" }
+      ]
+    },
+    {
+      "id": 4,
+      "name": "925 Ayar Gümüş Çeyreklik Bileklik (Y)",
+      "freeDelivery": false,
+      "price": 329.9,
+      "image": "https://user-images.githubusercontent.com/60944453/194701764-db61d9fa-ad6a-4fd0-8b32-bd026d1dbe4a.png",
+      "category": [
+        { "id": 9, "name": "Hediye" },
+        { "id": 10, "name": "Moda, Aksesuar" }
+      ]
+    },
+    {
+      "id": 5,
+      "name": "Sailor SD-3160 Siyah Dağcı Seyahat Sırt Çantası 55LT Outdoor-Trekking",
+      "freeDelivery": true,
+      "price": 499.9,
+      "image": "https://user-images.githubusercontent.com/60944453/194701958-fd0649f7-6c87-41be-94d0-4e78745bba6b.png",
+      "category": [
+        { "id": 3, "name": "Ev ve Yaşam" },
+        { "id": 7, "name": "Spor" }
+      ]
+    },
+    {
+      "id": 6,
+      "name": "Büyük Boy Metal Osmanlı Bizans Satranç Takımı Parlak ve Ceviz Tahtası",
+      "freeDelivery": true,
+      "price": 19.9,
+      "image": "https://user-images.githubusercontent.com/60944453/194702095-8c502ea7-934b-4228-81b4-bd9aa9110196.png",
+      "category": [
+        { "id": 9, "name": "Hediye" },
+        { "id": 7, "name": "Spor" }
+      ]
+    },
+    {
+      "id": 7,
+      "name": "13 Cm Papyonlu Büyük Ayıcı (%100 Yerli)",
+      "freeDelivery": true,
+      "price": 89.9,
+      "image": "https://user-images.githubusercontent.com/60944453/194702150-e2919001-6c37-476a-b48e-90fee09db42f.png",
+      "category": [
+        { "id": 6, "name": "Oyuncak" },
+        { "id": 9, "name": "Hediye" }
+      ]
+    },
+    {
+      "id": 8,
+      "name": "925 Ayar Gümüş Dualı İsimli Nazar İğnesi",
+      "freeDelivery": true,
+      "price": 29.9,
+      "image": "https://user-images.githubusercontent.com/60944453/194702245-79aafad3-337d-487e-a410-3aab6a8268e5.png",
+      "category": [{ "id": 10, "name": "Moda, Aksesuar" }]
+    },
+    {
+      "id": 9,
+      "name": "Özel Tatlar Çikolata Kutusu 300 gr",
+      "freeDelivery": true,
+      "price": 59.9,
+      "image": "https://user-images.githubusercontent.com/60944453/194702426-fb3c5f9a-aad2-428f-9172-a2d56e3bbabd.png",
+      "category": [{ "id": 9, "name": "Hediye" }]
+    },
+    {
+      "id": 10,
+      "name": "Kucak Dolusu Aşk 25 Kırmızı Gül Buketi",
+      "freeDelivery": false,
+      "price": 199.9,
+      "image": "https://user-images.githubusercontent.com/60944453/194702502-120e0eac-e6b8-4f33-812e-d8358a1371b0.png",
+      "category": [
+        { "id": 8, "name": "Çiçek" },
+        { "id": 9, "name": "Hediye" }
+      ]
+    },
+    {
+      "id": 11,
+      "name": " Atomik Alışkanlıklar – James Clear",
+      "freeDelivery": false,
+      "price": 79.9,
+      "image": "https://user-images.githubusercontent.com/60944453/194701239-e25caa00-32a8-4b04-a93c-cf659c4a769a.png",
+      "category": [{ "id": 5, "name": "Kitap" }]
+    },
+    {
+      "id": 12,
+      "name": "Calvin Klein Euphoria EDP 100 ml Kadın Parfüm",
+      "freeDelivery": false,
+      "price": 145.61,
+      "image": "https://user-images.githubusercontent.com/60944453/194701458-a548f273-9b2e-4ffe-9fb0-c31ae65d43ec.png",
+      "category": [
+        { "id": 12, "name": "Parfüm" },
+        { "id": 13, "name": "Kişisel Bakım" }
+      ]
+    },
+    {
+      "id": 13,
+      "name": "LENOVO Lp1s Tws Bluetooth 5.0 Kulakiçi Kablosuz Telefon Kulaklığı Siyah LP1S",
+      "freeDelivery": true,
+      "price": 419.9,
+      "image": "https://user-images.githubusercontent.com/60944453/194701539-6f84b3f8-f92e-4fab-b730-21eba8b2671d.png",
+      "category": [{ "id": 2, "name": "Elektronik" }]
+    },
+    {
+      "id": 14,
+      "name": "925 Ayar Gümüş Çeyreklik Bileklik (Y)",
+      "freeDelivery": false,
+      "price": 329.9,
+      "image": "https://user-images.githubusercontent.com/60944453/194701764-db61d9fa-ad6a-4fd0-8b32-bd026d1dbe4a.png",
+      "category": [
+        { "id": 9, "name": "Hediye" },
+        { "id": 10, "name": "Moda, Aksesuar" }
+      ]
+    },
+    {
+      "id": 15,
+      "name": "Logitech G29 Driving Force Direksiyon Seti",
+      "freeDelivery": true,
+      "price": 1499.9,
+      "image": "https://user-images.githubusercontent.com/60944453/194701958-fd0649f7-6c87-41be-94d0-4e78745bba6b.png",
+      "category": [
+        { "id": 2, "name": "Elektronik" },
+        { "id": 7, "name": "Spor" },
+        { "id": 6, "name": "Oyuncak" }
+      ]
+    },
+    {
+      "id": 16,
+      "name": "Büyük Boy Metal Osmanlı Bizans Satranç Takımı Parlak ve Ceviz Tahtası",
+      "freeDelivery": true,
+      "price": 19.9,
+      "image": "https://user-images.githubusercontent.com/60944453/194702095-8c502ea7-934b-4228-81b4-bd9aa9110196.png",
+      "category": [
+        { "id": 9, "name": "Hediye" },
+        { "id": 7, "name": "Spor" }
+      ]
+    },
+    {
+      "id": 17,
+      "name": "13 Cm Papyonlu Büyük Ayıcı (%100 Yerli)",
+      "freeDelivery": true,
+      "price": 89.9,
+      "image": "https://user-images.githubusercontent.com/60944453/194702150-e2919001-6c37-476a-b48e-90fee09db42f.png",
+      "category": [
+        { "id": 6, "name": "Oyuncak" },
+        { "id": 9, "name": "Hediye" }
+      ]
+    },
+    {
+      "id": 18,
+      "name": "925 Ayar Gümüş Dualı İsimli Nazar İğnesi",
+      "freeDelivery": true,
+      "price": 29.9,
+      "image": "https://user-images.githubusercontent.com/60944453/194702245-79aafad3-337d-487e-a410-3aab6a8268e5.png",
+      "category": [{ "id": 10, "name": "Moda, Aksesuar" }]
+    },
+    {
+      "id": 19,
+      "name": "İnsanın Anlam Arayışı - Viktor Emil Frankl",
+      "freeDelivery": true,
+      "price": 45.0,
+      "image": "https://user-images.githubusercontent.com/60944453/194702426-fb3c5f9a-aad2-428f-9172-a2d56e3bbabd.png",
+      "category": [
+        { "id": 9, "name": "Hediye" },
+        { "id": 5, "name": "Kitap" }
+      ]
+    },
+    {
+      "id": 20,
+      "name": "Kucak Dolusu Aşk 25 Kırmızı Gül Buketi",
+      "freeDelivery": false,
+      "price": 199.9,
+      "image": "https://user-images.githubusercontent.com/60944453/194702502-120e0eac-e6b8-4f33-812e-d8358a1371b0.png",
+      "category": [
+        { "id": 8, "name": "Çiçek" },
+        { "id": 9, "name": "Hediye" }
+      ]
+    }
+  ]
+}
