@@ -1,0 +1,13 @@
+.title {
+  height: 74px;
+  margin-top: 20px;
+  display: flex;
+  align-items: center;
+  background-image: url("../../assets/images/header-line.png");
+  &__text {
+    color: $backgroundWhite;
+    font-weight: normal;
+    font-size: 35px;
+    margin-left: 220px;
+  }
+}
