@@ -1,0 +1,41 @@
+.category {
+  margin-top: 10px;
+
+  &__title {
+    display: flex;
+    font-size: 24px;
+
+    &__text {
+      color: $textBlue;
+      margin-left: 6px;
+    }
+  }
+
+  &__detail {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+
+    &__name {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      width: 195px;
+      padding: 13px 23px;
+      margin: 20px 19px 0 0;
+      border: 1px solid $borderBlue;
+      border-radius: 10px;
+      background-color: $backgroundWhite;
+      color: $textGray;
+      font-size: 18px;
+      font-weight: 600;
+      cursor: pointer;
+
+      &:focus {
+        background-color: $textBlue;
+        color: $backgroundWhite;
+      }
+    }
+  }
+}
