@@ -4,6 +4,7 @@ import BreadCrumb from "./components/BreadCrumb/BreadCrumb";
 import Header from "./components/Header/Header";
 import Title from "./components/Title/Title";
 import Category from "./components/Category/Category";
+import ProductList from "./components/Product/ProductList";
 import { CartProvider } from "./context/CartContext";
 
 function App() {
@@ -14,6 +15,7 @@ function App() {
         <Title />
         <BreadCrumb />
         <Category />
+        <ProductList />
       </CartProvider>
     </div>
   );

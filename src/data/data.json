@@ -22,7 +22,7 @@
       "name": "Z6 Akıllı Saat Kameralı Konuşma Garantili Sim Kartlı Bluetooth",
       "freeDelivery": true,
       "price": 399.9,
-      "image": "https://user-images.githubusercontent.com/60944453/194701239-e25caa00-32a8-4b04-a93c-cf659c4a769a.png",
+      "image": "https://user-images.githubusercontent.com/60944453/194724278-7e7c3343-42bc-400d-a215-891d3b6794ae.png",
       "category": [{ "id": 2, "name": "Elektronik" }]
     },
     {
@@ -72,7 +72,7 @@
     },
     {
       "id": 6,
-      "name": "Büyük Boy Metal Osmanlı Bizans Satranç Takımı Parlak ve Ceviz Tahtası",
+      "name": "Büyük Boy Metal Osmanlı Bizans Satranç Takımı Parlak ve Cev...",
       "freeDelivery": true,
       "price": 19.9,
       "image": "https://user-images.githubusercontent.com/60944453/194702095-8c502ea7-934b-4228-81b4-bd9aa9110196.png",
@@ -97,7 +97,7 @@
       "name": "925 Ayar Gümüş Dualı İsimli Nazar İğnesi",
       "freeDelivery": true,
       "price": 29.9,
-      "image": "https://user-images.githubusercontent.com/60944453/194702245-79aafad3-337d-487e-a410-3aab6a8268e5.png",
+      "image": "https://user-images.githubusercontent.com/60944453/194727166-076feb83-a36d-47f6-89f0-d351f73f39a0.png",
       "category": [{ "id": 10, "name": "Moda, Aksesuar" }]
     },
     {
@@ -124,7 +124,7 @@
       "name": " Atomik Alışkanlıklar – James Clear",
       "freeDelivery": false,
       "price": 79.9,
-      "image": "https://user-images.githubusercontent.com/60944453/194701239-e25caa00-32a8-4b04-a93c-cf659c4a769a.png",
+      "image": "https://user-images.githubusercontent.com/60944453/194724278-7e7c3343-42bc-400d-a215-891d3b6794ae.png",
       "category": [{ "id": 5, "name": "Kitap" }]
     },
     {
@@ -140,9 +140,9 @@
     },
     {
       "id": 13,
-      "name": "LENOVO Lp1s Tws Bluetooth 5.0 Kulakiçi Kablosuz Telefon Kulaklığı Siyah LP1S",
+      "name": "Apple AirPods 2. Nesil Kulaklık",
       "freeDelivery": true,
-      "price": 419.9,
+      "price": 2648.9,
       "image": "https://user-images.githubusercontent.com/60944453/194701539-6f84b3f8-f92e-4fab-b730-21eba8b2671d.png",
       "category": [{ "id": 2, "name": "Elektronik" }]
     },
@@ -171,7 +171,7 @@
     },
     {
       "id": 16,
-      "name": "Büyük Boy Metal Osmanlı Bizans Satranç Takımı Parlak ve Ceviz Tahtası",
+      "name": "Büyük Boy Metal Osmanlı Bizans Satranç Takımı Parlak ve Cev...",
       "freeDelivery": true,
       "price": 19.9,
       "image": "https://user-images.githubusercontent.com/60944453/194702095-8c502ea7-934b-4228-81b4-bd9aa9110196.png",
@@ -196,7 +196,7 @@
       "name": "925 Ayar Gümüş Dualı İsimli Nazar İğnesi",
       "freeDelivery": true,
       "price": 29.9,
-      "image": "https://user-images.githubusercontent.com/60944453/194702245-79aafad3-337d-487e-a410-3aab6a8268e5.png",
+      "image": "https://user-images.githubusercontent.com/60944453/194727166-076feb83-a36d-47f6-89f0-d351f73f39a0.png",
       "category": [{ "id": 10, "name": "Moda, Aksesuar" }]
     },
     {
