@@ -1,0 +1,11 @@
+.breadcrumb {
+  margin-top: 10px;
+  height: 17px;
+  p {
+    font-size: 13px;
+  }
+
+  &__category {
+    color: $textGreen;
+  }
+}
