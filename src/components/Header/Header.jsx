@@ -21,7 +21,7 @@ const Header = () => {
 
   return (
     <header className="header container">
-      <img src={logo} alt="brand__logo" />
+      <img src={logo} className="header__logo" alt="brand__logo" />
       <Search />
       <button className="header__basket" type="button">
         <section className="header__basket__top">

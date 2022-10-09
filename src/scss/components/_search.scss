@@ -10,6 +10,24 @@
   margin-right: 224px;
   margin-left: 78px;
 
+  @include devices(tablet) {
+    margin-right: 80px;
+    margin-left: 50px;
+    padding: 15px 12px;
+  }
+
+  @include devices(miniTablet) {
+    margin-right: 45px;
+    margin-left: 30px;
+    padding: 10px 8px;
+    margin-bottom: 20px;
+  }
+
+  @include devices(mobile) {
+    margin: 0 0 15px;
+    padding: 10px 8px;
+  }
+
   &__input {
     width: 100%;
     height: 31px;

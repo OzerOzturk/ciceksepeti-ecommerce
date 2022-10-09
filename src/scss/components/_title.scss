@@ -4,10 +4,24 @@
   display: flex;
   align-items: center;
   background-image: url("../../assets/images/header-line.png");
+
   &__text {
     color: $backgroundWhite;
     font-weight: normal;
     font-size: 35px;
     margin-left: 220px;
+
+    @include devices(tablet) {
+      margin-left: 40px;
+      font-size: 30px;
+    }
+    @include devices(miniTablet) {
+      margin-left: 30px;
+      font-size: 25px;
+    }
+    @include devices(mobile) {
+      margin-left: 20px;
+      font-size: 22px;
+    }
   }
 }

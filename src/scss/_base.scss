@@ -1,3 +1,5 @@
+@import "./_mixins";
+
 * {
   margin: 0;
   padding: 0;
@@ -13,4 +15,17 @@ li {
 .container {
   padding-left: 220px;
   padding-right: 220px;
+
+  @include devices(tablet) {
+    padding-left: 40px;
+    padding-right: 40px;
+  }
+  @include devices(miniTablet) {
+    padding-left: 30px;
+    padding-right: 30px;
+  }
+  @include devices(mobile) {
+    padding-left: 20px;
+    padding-right: 20px;
+  }
 }
