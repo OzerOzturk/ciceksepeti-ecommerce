@@ -25,7 +25,7 @@ export default ProductCard;
 
 ProductCard.propTypes = {
   name: PropTypes.string,
-  delivery: PropTypes.boolean,
+  delivery: PropTypes.bool,
   price: PropTypes.number,
   Products: PropTypes.string,
   image: PropTypes.any,
