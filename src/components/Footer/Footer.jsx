@@ -29,8 +29,12 @@ const Footer = () => {
             </div>
           </div>
           <div className="footer__top__right__lower">
-            <img src={playStore} alt="playStore__icon" />
-            <img src={appStore} alt="appStore__icon" />
+            <a href="https://play.google.com/store/apps/details?id=com.ciceksepeti.ciceksepeti">
+              <img src={playStore} alt="playStore__icon" />
+            </a>
+            <a href="https://apps.apple.com/app/id723715907">
+              <img src={appStore} alt="appStore__icon" />
+            </a>
           </div>
         </div>
       </section>
@@ -38,11 +42,21 @@ const Footer = () => {
         <div className="footer__bottom__left">
           <img src={logo} alt="ciceksepeti__logo" />
           <div className="footer__bottom__left__social">
-            <img src={facebook} alt="facebook__icon" />
-            <img src={twitter} alt="twitter__icon" />
-            <img src={instagram} alt="instagram__icon" />
-            <img src={youtube} alt="youtube__icon" />
-            <img src={blog} alt="ciceksepeti__blog__icon" />
+            <a href="https://www.facebook.com/ciceksepeti">
+              <img src={facebook} alt="facebook__icon" />
+            </a>
+            <a href="https://twitter.com/ciceksepeti">
+              <img src={twitter} alt="twitter__icon" />
+            </a>
+            <a href="https://www.instagram.com/ciceksepeti/">
+              <img src={instagram} alt="instagram__icon" />
+            </a>
+            <a href="https://www.youtube.com/user/CicekSepeti">
+              <img src={youtube} alt="youtube__icon" />
+            </a>
+            <a href="https://blog.ciceksepeti.com/">
+              <img src={blog} alt="ciceksepeti__blog__icon" />
+            </a>
           </div>
           <p className="footer__bottom__left__text">
             CicekSepeti.com olarak kişisel verilerinizin gizliliğini

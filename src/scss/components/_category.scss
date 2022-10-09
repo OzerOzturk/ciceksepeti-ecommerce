@@ -32,6 +32,24 @@
       font-weight: 600;
       cursor: pointer;
 
+      @include devices(tablet) {
+        font-size: 16px;
+        font-weight: 500;
+        width: 180px;
+      }
+      @include devices(miniTablet) {
+        font-size: 14px;
+        font-weight: 500;
+        width: 140px;
+        padding: 10px 18px;
+      }
+      @include devices(mobile) {
+        font-size: 12px;
+        font-weight: 400;
+        width: 130px;
+        padding: 8px 16px;
+      }
+
       &:focus {
         background-color: $textBlue;
         color: $backgroundWhite;

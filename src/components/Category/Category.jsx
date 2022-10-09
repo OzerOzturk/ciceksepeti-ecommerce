@@ -6,7 +6,11 @@ const Category = () => {
   return (
     <nav className="category container">
       <div className="category__title">
-        <img src={menuList} alt="" className="category__title__icon" />
+        <img
+          src={menuList}
+          alt="menu__icon"
+          className="category__title__icon"
+        />
         <p className="category__title__text">Kategoriler</p>
       </div>
       <section className="category__detail">

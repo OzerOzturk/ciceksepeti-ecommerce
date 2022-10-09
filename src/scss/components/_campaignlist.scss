@@ -9,4 +9,16 @@
   justify-content: center;
   flex-wrap: wrap;
   margin-bottom: 105px;
+
+  @include devices(tablet) {
+    margin-bottom: 70px;
+  }
+
+  @include devices(miniTablet) {
+    margin-bottom: 50px;
+  }
+
+  @include devices(mobile) {
+    margin-bottom: 30px;
+  }
 }
