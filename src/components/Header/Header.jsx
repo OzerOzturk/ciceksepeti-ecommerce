@@ -1,10 +1,24 @@
-import React from "react";
+import React, { useContext } from "react";
+import CartContext from "../../context/CartContext";
+
 import logo from "../../assets/icons/logo.svg";
 import cart from "../../assets/icons/cart.svg";
 import flash from "../../assets/icons/flash.svg";
+
+//component
 import Search from "./Search";
 
 const Header = () => {
+  const { items } = useContext(CartContext);
+
+  const calculateProductsNumber = () => {
+    let count = 0;
+    items.map((item) => {
+      count += item.count;
+    });
+    return count;
+  };
+
   return (
     <header className="header container">
       <img src={logo} alt="brand__logo" />
@@ -13,7 +27,9 @@ const Header = () => {
         <section className="header__basket__top">
           <img src={cart} alt="icon" className="header__basket__top__icon" />
           <p className="header__basket__top__text">Sepetim</p>
-          <mark className="header__basket__top__number">0</mark>
+          <mark className="header__basket__top__number">
+            {calculateProductsNumber()}
+          </mark>
         </section>
         <section className="header__basket__bottom">
           <p className="header__basket__bottom__text">

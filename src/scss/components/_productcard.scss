@@ -36,6 +36,54 @@
     }
   }
 
+  &__buttons {
+    background-color: $backgroundWhite;
+    border: 1px solid $textBlue;
+    border-radius: 22px;
+    font-weight: 600;
+    font-size: 15px;
+    padding: 10px;
+    margin-top: auto;
+    display: flex;
+    justify-content: space-between;
+
+    &__minus {
+      font-size: 30px;
+      color: $textBlue;
+      background-color: $backgroundBlue-2;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      border-radius: 50%;
+      border: none;
+      width: 30px;
+      height: 25px;
+      &:hover {
+        cursor: pointer;
+      }
+    }
+
+    span {
+      font-weight: bold;
+    }
+
+    &__plus {
+      font-size: 30px;
+      color: $textBlue;
+      background-color: $backgroundBlue-2;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      border-radius: 50%;
+      border: none;
+      width: 30px;
+      height: 25px;
+      &:hover {
+        cursor: pointer;
+      }
+    }
+  }
+
   &__button {
     background-color: $backgroundWhite;
     color: $textBlue;
