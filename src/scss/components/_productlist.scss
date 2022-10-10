@@ -21,5 +21,19 @@
     flex-wrap: wrap;
     align-items: center;
     justify-content: center;
+
+    &__noProduct {
+      font-size: 25px;
+      margin: 20px 0;
+      font-weight: 600;
+
+      @include devices(miniTablet) {
+        font-size: 20px;
+      }
+
+      @include devices(mobile) {
+        font-size: 17px;
+      }
+    }
   }
 }

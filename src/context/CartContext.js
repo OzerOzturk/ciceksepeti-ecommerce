@@ -5,9 +5,12 @@ const CartContext = createContext(null);
 
 export function CartProvider({ children }) {
   const [items, setItems] = useState([]);
+  const [liveSearch, setLiveSearch] = useState("");
 
   return (
-    <CartContext.Provider value={{ items, setItems }}>
+    <CartContext.Provider
+      value={{ items, setItems, liveSearch, setLiveSearch }}
+    >
       {children}
     </CartContext.Provider>
   );

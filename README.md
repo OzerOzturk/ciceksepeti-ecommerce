@@ -3,8 +3,7 @@
 ## Performs These Task
 - Shopping Cart Function
 - Responsive Design
-
-<br>
+- Search Filter Function
 
  ## Deployment
 
