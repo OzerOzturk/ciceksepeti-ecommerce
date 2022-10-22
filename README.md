@@ -1,9 +1,10 @@
-# ÇiçekSepeti Frontend Case 
+# ÇiçekSepeti E-Commerce
 
 ## Performs These Task
 - Shopping Cart Function
 - Responsive Design
-- Search Filter Function
+- Search Product Function
+- Filter Products by Category
 
  ## Deployment
 
@@ -13,12 +14,12 @@
 
 ### Desktop 
 
-![ciceksepeti-image](https://user-images.githubusercontent.com/60944453/194782835-9491c824-5c66-4442-a00a-16bf90236efe.png)
+![ciceksepetiDesktop](https://user-images.githubusercontent.com/60944453/197362751-4bf1ddb8-4a4d-4c09-81c6-194044a22a8a.png)
 
 
 ## Mobile 
 
-![ciceksepeti-image2](https://user-images.githubusercontent.com/60944453/194781567-df112c47-2f8e-4951-9e99-be0c31bfbe96.png)
+![ciceksepetiPhone](https://user-images.githubusercontent.com/60944453/197362604-db72986e-4431-44b7-a374-650d9ad23e23.png)
 
 
 <br>
@@ -35,12 +36,12 @@
 
 1. Clone the repo
    ```sh
-   git clone https://github.com/OzerOzturk/ciceksepeti-frontend-case.git
+   git clone https://github.com/OzerOzturk/ciceksepeti-ecommerce.git
    ```
 2. Navigate to the project folder
 
    ```sh
-   cd ciceksepeti-frontend-case
+   cd ciceksepeti-ecommerce
    ```
 
 3. Install dependencies
