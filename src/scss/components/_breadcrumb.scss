@@ -1,11 +1,13 @@
 .breadcrumb {
   margin-top: 10px;
   height: 17px;
-  p {
+  a {
     font-size: 13px;
+    text-decoration: none;
   }
 
   &__category {
     color: $textGreen;
+    margin-left: 5px;
   }
 }

@@ -19,9 +19,31 @@ const Header = () => {
     return count;
   };
 
+  const calculateProductsPrice = () => {
+    let price = 0;
+    items.map((item) => {
+      price += Math.ceil(item.count * Math.ceil(item.price));
+    });
+    return price;
+  };
+
+  const calculateRemainderPrice = () => {
+    const price = calculateProductsPrice();
+    const remainderPrice = 500 - price;
+    return remainderPrice;
+  };
+
+  const calculatePercent = () => {
+    const price = calculateProductsPrice();
+    const percent = Math.floor((price * 100) / 500);
+    return percent;
+  };
+
   return (
     <header className="header container">
-      <img src={logo} className="header__logo" alt="brand__logo" />
+      <a href="/">
+        <img src={logo} className="header__logo" alt="brand__logo" />
+      </a>
       <Search />
       <button className="header__basket" type="button">
         <section className="header__basket__top">
@@ -33,11 +55,26 @@ const Header = () => {
         </section>
         <section className="header__basket__bottom">
           <p className="header__basket__bottom__text">
-            <img src={flash} alt="" />
-            <span className="header__basket__bottom__text__price">500 TL</span>
-            ürün daha ekleyin kargo bedava
+            {calculatePercent() < 100 ? (
+              <>
+                <img src={flash} alt="" />
+                <span className="header__basket__bottom__text__price">
+                  {calculateRemainderPrice()} TL
+                </span>
+                ürün daha ekleyin kargo bedava
+              </>
+            ) : (
+              "Kargo Bedava!"
+            )}
           </p>
-          <p className="header__basket__bottom__bar"></p>
+          {calculatePercent() < 100 && (
+            <p className="header__basket__bottom__bar">
+              <p
+                className="header__basket__bottom__bar__status"
+                style={{ width: `${calculatePercent()}%` }}
+              ></p>
+            </p>
+          )}
         </section>
       </button>
     </header>

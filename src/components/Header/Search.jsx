@@ -31,6 +31,7 @@ const Search = () => {
         type="text"
         className="search__container__input"
         placeholder="Ürün Ara"
+        onKeyDown={(event) => event.key === "Enter" && handleSubmit()}
       />
       <button onClick={handleSubmit} className="search__container__button">
         Ara
