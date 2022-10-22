@@ -6,10 +6,21 @@ const CartContext = createContext(null);
 export function CartProvider({ children }) {
   const [items, setItems] = useState([]);
   const [liveSearch, setLiveSearch] = useState("");
+  const [activeCategory, setActiveCategory] = useState({
+    id: 1,
+    name: "Tüm Kategoriler",
+  });
 
   return (
     <CartContext.Provider
-      value={{ items, setItems, liveSearch, setLiveSearch }}
+      value={{
+        items,
+        setItems,
+        liveSearch,
+        setLiveSearch,
+        activeCategory,
+        setActiveCategory,
+      }}
     >
       {children}
     </CartContext.Provider>

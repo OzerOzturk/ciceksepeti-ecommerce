@@ -49,10 +49,38 @@
         width: 130px;
         padding: 8px 16px;
       }
-
-      &:focus {
+      &--active {
         background-color: $textBlue;
         color: $backgroundWhite;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 195px;
+        padding: 13px 23px;
+        margin: 20px 19px 0 0;
+        border: 1px solid $borderBlue;
+        border-radius: 10px;
+        font-size: 18px;
+        font-weight: 600;
+        cursor: pointer;
+
+        @include devices(tablet) {
+          font-size: 16px;
+          font-weight: 500;
+          width: 180px;
+        }
+        @include devices(miniTablet) {
+          font-size: 14px;
+          font-weight: 500;
+          width: 140px;
+          padding: 10px 18px;
+        }
+        @include devices(mobile) {
+          font-size: 12px;
+          font-weight: 400;
+          width: 130px;
+          padding: 8px 16px;
+        }
       }
     }
   }

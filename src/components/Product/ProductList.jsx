@@ -1,29 +1,53 @@
 import React, { useContext } from "react";
+import CartContext from "../../context/CartContext";
 import ProductCard from "./ProductCard";
 import leaf from "../../assets/icons/leaf.svg";
 import data from "../../data/data.json";
-import CartContext from "../../context/CartContext";
 
 const ProductList = () => {
-  const { liveSearch } = useContext(CartContext);
+  const { liveSearch, activeCategory } = useContext(CartContext);
 
   const renderProducts = () => {
-    return (
-      data &&
-      data.products
-        .filter((product) => product.name.toLowerCase().includes(liveSearch))
-        .map((product) => (
-          <ProductCard
-            key={product.id}
-            id={product.id}
-            name={product.name}
-            delivery={product.freeDelivery}
-            price={product.price}
-            image={product.image}
-            category={product.category}
-          />
-        ))
-    );
+    if (activeCategory.id === 1) {
+      return (
+        data &&
+        data.products
+          .filter((product) => product.name.toLowerCase().includes(liveSearch))
+          .map((product) => (
+            <ProductCard
+              key={product.id}
+              id={product.id}
+              name={product.name}
+              delivery={product.freeDelivery}
+              price={product.price}
+              image={product.image}
+              category={product.category}
+            />
+          ))
+      );
+    } else {
+      return (
+        data &&
+        data.products
+          .filter((product) => product.name.toLowerCase().includes(liveSearch))
+          .filter((product) =>
+            product.category
+              .map((category) => category.id)
+              .includes(activeCategory.id)
+          )
+          .map((product) => (
+            <ProductCard
+              key={product.id}
+              id={product.id}
+              name={product.name}
+              delivery={product.freeDelivery}
+              price={product.price}
+              image={product.image}
+              category={product.category}
+            />
+          ))
+      );
+    }
   };
 
   return (
